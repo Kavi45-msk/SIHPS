@@ -15,6 +15,21 @@ The idea is to create a website that provides users with information about the n
 ## Proposed Solution / Architecture Diagram
 ![Workflow-of-E-Waste-Recycling-through-Third-Party-Recycler](https://github.com/Kavi45-msk/SIHPS/assets/147457752/91fdfed8-be46-4250-b336-e0e8cc7a2955)
 
+## Usecase:
+Finding Nearest E-Waste Collection Facility
+
+1. User logs in: Sarah, a tech-savvy individual, logs into the E-Waste Recycling Platform using her account credentials.
+
+2. Location detection: The platform automatically detects Sarah's location using geolocation services or prompts her to enter her location manually.
+
+3. Search for e-waste collection facility: Sarah enters her location details or allows the platform to access her current location. She then clicks on the "Find Nearest Facility" button.
+
+4. Display of nearest facilities: The platform utilizes Google Maps API or Mapbox API to display the nearest e-waste collection facilities on the map interface. These facilities are marked with pins, and their details are displayed alongside.
+
+5. Selection of facility: Sarah selects the e-waste collection facility nearest to her residence by clicking on its pin on the map or selecting it from the list of facilities displayed.
+
+6.Navigation to the facility: The platform provides Sarah with navigation directions to the selected e-waste collection facility, ensuring she can easily reach the destination.
+
 ## Technology Stack
 Frameworks
 React.js
